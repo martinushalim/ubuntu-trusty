@@ -1,7 +1,7 @@
 ### dockerfile for apache ###
 
 # ubuntu 14.04 image dasar
-FROM : ubuntu:trusty
+FROM ubuntu:trusty
 
 # footprint
 MAINTAINER rizky.faisal12@gmail.com
