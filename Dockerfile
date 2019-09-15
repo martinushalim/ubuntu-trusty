@@ -14,9 +14,7 @@ RUN sed -i 's/archive.ubuntu.com/kambing.ui.ac.id/g' /etc/apt/sources.list
 RUN apt-get update && apt-get -y install \
           apache2 \
           php5 \
-          php-curl \
-          php-mysql \
-          rm -rf /var/lib/apt/lists/*
+          php-curl 
           
 # forwarding ip internal docker
 EXPOSE 80
